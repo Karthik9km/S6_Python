@@ -1,0 +1,6 @@
+F=open("old.txt","r")
+F1=open("new.txt","w")
+txt=F.read()
+F1.write(txt)
+F.close()
+F1.close()
